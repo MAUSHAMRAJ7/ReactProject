@@ -12,11 +12,12 @@ function Navbar() {
     }
   };
   return (
-    <div className="container">
+    <div className="navbar_container">
+    <div className="container containernav" >
       <div className="nav_container">
         <div className="navbar res-navbar">
           <div className="hamburger-menu">
-            <a href="#" onClick={show}>
+            <a href="/" onClick={show}>
               <i class="fa-solid fa-bars"></i>
             </a>
           </div>
@@ -100,6 +101,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 }

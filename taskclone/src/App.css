@@ -19,6 +19,9 @@ html{
 }
 
 /* Navbar css */
+.navbar_container{
+  box-shadow: 0px 2px 4px #0000001A;
+}
 .nav-container {
   width: auto;
   height: auto;
@@ -410,9 +413,6 @@ border: 1px solid pink;
   .editor_premium{
     position: relative;
   }
-  .event_img{
-    /* margin: 2.0rem 1.0rem; */
-  }
   .event_content{
     width: 20.0rem;
     /* margin-right: 0.4rem; */
@@ -596,6 +596,24 @@ color: #222222;
   margin: 1rem;
   color: #FFFFFF;
 }
+/* .swiper-button-prev {
+  right: 10px;
+  left: auto;
+  font-size: 50px;
+  line-height: 34px;
+  background: #508aa3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.swiper-button-next{
+  font-size: 50px;
+  line-height: 34px;
+  background: #007aff;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+} */
 .footer_bottom{
   text-align: center;
   color: #FFFFFF;}

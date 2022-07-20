@@ -1,5 +1,4 @@
 import React from "react";
-import Editordata from "../Database/Editordata";
 import Sideadd from "./Sideadd";
 
 function Editor(props) {
